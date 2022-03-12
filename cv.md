@@ -17,4 +17,4 @@ Male, 29 years old, 03.11.1992
 ### Social network
 
 - [Вконтакте](https://vk.com/olskared)
-- [Instagtam](https://www.instagram.com/oleg_skarednov/)
+- [Instagram](https://www.instagram.com/oleg_skarednov/)
