@@ -3,4 +3,4 @@
 ## Skarednov Oleg
 
 ![Alt-текст](моя фото)
-![my_photo](myPhoto.jpg "Моя фото")
+![my_photo](myPhot.jpg "Моя фото")
