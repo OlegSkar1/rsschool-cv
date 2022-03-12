@@ -33,3 +33,18 @@ Male, 29 years old, 03.11.1992
 - stress resistance
 - without bad habbits
 - doing sports
+
+---
+
+### Skills
+
+Basic knowledge of HTML, CSS, JS, git
+
+---
+
+### Education
+
+- Ural University of Railway Transport 2010-2015
+  -- Railway engineer
+- RS School 2022
+  -- Frontend developer
