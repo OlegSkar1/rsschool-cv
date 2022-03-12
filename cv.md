@@ -48,3 +48,16 @@ Basic knowledge of HTML, CSS, JS, git
   -- Railway engineer
 - RS School 2022
   -- Frontend developer
+
+  ***
+
+  ### Projects
+
+  [My CV](https://olegskar1.github.io/rsschool-cv/cv)
+
+  ***
+
+  ### Language
+
+* Native language - Russian
+* Second language - English (A2)
