@@ -550,3 +550,29 @@ html {
   font-size: 14px;
   font-weight: 400;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #242424;
+  background: #555;
+}
+.resume {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+.resumeLeft {
+  width: 380px;
+  background: #c0d8de;
+}
+.resumeLeft_profile {
+  width: 100%;
+  height: auto;
+}
+.resumeLeft_profile img {
+  display: block;
+  margin: 50px auto 25px;
+}
