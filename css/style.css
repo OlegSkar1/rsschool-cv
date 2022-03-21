@@ -645,7 +645,8 @@ body {
   text-align: center;
 }
 .resumeLeft_content_about_me,
-.resumeLeft_content_contact_me {
+.resumeLeft_content_contact_me,
+.resumeLeft_content_personal_skills {
   margin: 0 auto 25px;
 }
 .resumeLeft_content_contact_me h2 {
@@ -655,3 +656,32 @@ body {
 .resumeLeft_content_contact_me p {
   text-align: center;
 }
+.resumeLeft_content_personal_skills h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.circleItem {
+  background: #242424;
+}
+.circleItem {
+  background: #242424;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20%;
+}
+.circle {
+  display: flex;
+}
+.circleItem {
+  margin-right: 8px;
+}
+.circleItem:last-child {
+  margin-right: 0px;
+}
+/* end resumeLeft */
