@@ -685,3 +685,17 @@ body {
   margin-right: 0px;
 }
 /* end resumeLeft */
+/* start resumeRight */
+.resumeRight {
+  width: 620px;
+  background: #e4e6e7;
+}
+.resumeRight_social {
+  width: 80%;
+  height: 100%;
+  background-image: url(../img/Union.png);
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 70%;
+}
