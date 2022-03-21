@@ -725,22 +725,55 @@ a::before {
 }
 .education {
   width: 80%;
-  margin: 0 auto;
+  text-align: center;
+  margin: 0 auto 25px;
 }
 .education h1 {
-  text-align: center;
   background-color: #242424;
   padding: 0.5em 0;
   margin: 0 auto 14px;
 }
 .education h2 {
-  text-align: center;
   margin: 0 auto 5px;
 }
 .education p {
-  text-align: center;
   margin: 0 auto 5px;
 }
 .education p.regular_roboto {
   margin-bottom: 14px;
+}
+.professional_skills {
+  width: 80%;
+  text-align: center;
+
+  margin: 0 auto 25px;
+}
+.professional_skills h1 {
+  background-color: #242424;
+  padding: 0.5em 0;
+  margin: 0 auto 14px;
+}
+.professional_skills ul li {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.professional_skills ul li .skill_name {
+  width: 25%;
+}
+.professional_skills ul li .skill_progress {
+  width: 60%;
+  height: 5px;
+  background: #b9b9b9;
+  position: relative;
+}
+.professional_skills ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #242424;
 }
