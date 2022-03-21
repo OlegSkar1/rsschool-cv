@@ -576,6 +576,12 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
+.gray_poppins {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #999999;
+}
 .bold_poppins {
   text-transform: uppercase;
   font-size: 18px;
@@ -660,14 +666,13 @@ body {
   text-align: center;
   margin-bottom: 10px;
 }
-.circleItem {
-  background: #242424;
-}
+
 .circleItem {
   background: #242424;
   width: 8px;
   height: 8px;
   border-radius: 50%;
+  margin-right: 8px;
 }
 .listItem {
   display: flex;
@@ -677,9 +682,6 @@ body {
 }
 .circle {
   display: flex;
-}
-.circleItem {
-  margin-right: 8px;
 }
 .circleItem:last-child {
   margin-right: 0px;
@@ -691,11 +693,54 @@ body {
   background: #e4e6e7;
 }
 .resumeRight_social {
-  width: 80%;
-  height: 100%;
-  background-image: url(../img/Union.png);
-  margin: 0 auto;
+  display: flex;
+  width: 100%;
+  background-image: url(/img/Union.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 70%;
+  height: 10%;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.resumeRight_social_link {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+}
+.social_link {
+  display: flex;
+  margin: 25px 25px 25px 0px;
+  align-items: center;
+  line-height: 1em;
+}
+.social_link img {
+  margin-right: 5px;
+}
+.social_link a,
+a::before {
+  text-decoration: none;
+  color: #242424;
+}
+.education {
+  width: 80%;
+  margin: 0 auto;
+}
+.education h1 {
+  text-align: center;
+  background-color: #242424;
+  padding: 0.5em 0;
+  margin: 0 auto 14px;
+}
+.education h2 {
+  text-align: center;
+  margin: 0 auto 5px;
+}
+.education p {
+  text-align: center;
+  margin: 0 auto 5px;
+}
+.education p.regular_roboto {
+  margin-bottom: 14px;
 }
