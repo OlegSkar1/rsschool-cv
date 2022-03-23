@@ -695,7 +695,7 @@ body {
 .resumeRight_social {
   display: flex;
   width: 100%;
-  background-image: url(/img/Union.png);
+  background-image: url(../img/Union.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 70%;
@@ -723,36 +723,47 @@ a::before {
   text-decoration: none;
   color: #242424;
 }
-.education {
-  width: 80%;
+.history {
+  width: 100%;
   text-align: center;
   margin: 0 auto 25px;
 }
-.education h1 {
+.history h1 {
   background-color: #242424;
   padding: 0.5em 0;
   margin: 0 auto 14px;
 }
-.education h2 {
-  margin: 0 auto 5px;
+.history h2 {
+  margin: 0 auto;
 }
-.education p {
-  margin: 0 auto 5px;
+.history p {
+  width: 80%;
+  margin: 0 auto;
 }
-.education p.regular_roboto {
-  margin-bottom: 14px;
+.history p.regular_roboto {
+  margin-bottom: 30px;
+}
+.title_prof_skills h1 {
+  width: 80%;
+  background-color: #242424;
+  padding: 0.5em 0;
+  margin: 0 auto 14px;
+  text-align: center;
+}
+.prof_skills {
+  display: flex;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto 25px;
+  justify-content: space-between;
 }
 .professional_skills {
-  width: 80%;
+  width: 100%;
   text-align: center;
 
-  margin: 0 auto 25px;
+  margin: 0 auto;
 }
-.professional_skills h1 {
-  background-color: #242424;
-  padding: 0.5em 0;
-  margin: 0 auto 14px;
-}
+
 .professional_skills ul li {
   display: flex;
   flex-wrap: wrap;
@@ -765,7 +776,7 @@ a::before {
   width: 25%;
 }
 .professional_skills ul li .skill_progress {
-  width: 60%;
+  width: 70%;
   height: 5px;
   background: #b9b9b9;
   position: relative;
@@ -777,3 +788,11 @@ a::before {
   height: 100%;
   background: #242424;
 }
+.history h1 {
+  width: 80%;
+  background-color: #242424;
+  padding: 0.5em 0;
+  margin: 0 auto 14px;
+  text-align: center;
+}
+/* end resumeRight */
